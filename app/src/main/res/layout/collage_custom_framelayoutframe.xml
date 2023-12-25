@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_toLeftOf="@+id/supermain"
+    android:background="@android:color/transparent">
+
+    <FrameLayout
+        android:id="@+id/add_photo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff232323">
+
+        <ImageView
+            android:id="@+id/copyimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/temporaryimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:visibility="gone" />
+
+        <it.sephiroth.android.library.imagezoom.ImageViewTouch
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_add_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/add_pic" />
+
+        <ImageView
+            android:id="@+id/iv_tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/save_sign"
+            android:visibility="gone" />
+    </FrameLayout>
+</FrameLayout>

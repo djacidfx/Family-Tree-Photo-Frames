@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e9dabd"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/size10"
+        android:text="For Profile Picture(1:1)"
+        android:textSize="@dimen/textsize24" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/size10"
+        android:text="For News Feed   (3:4)"
+        android:textSize="@dimen/textsize24" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/size10"
+        android:text="For Cover Photo  (3:2)"
+        android:textSize="@dimen/textsize24" />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgtree" />
+
+    <ImageView
+        android:layout_width="@dimen/size200"
+        android:layout_height="@dimen/size150"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/banner1"
+        android:onClick="gotoNext"
+        android:src="@drawable/start" />
+
+    <ImageView
+        android:id="@+id/iv_homeMenu"
+        android:layout_width="@dimen/size50"
+        android:layout_height="@dimen/size50"
+        android:onClick="clickMenubar"
+        android:paddingLeft="@dimen/size10"
+        android:paddingTop="@dimen/size10"
+        android:paddingBottom="@dimen/size10"
+        android:src="@drawable/menu" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/banner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

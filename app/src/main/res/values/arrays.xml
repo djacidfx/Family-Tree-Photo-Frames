@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="blendlist">
+        <item>Orignal</item>
+        <item>Lightning</item>
+        <item>Color Burn</item>
+        <item>Purple Fx</item>
+        <item>Hard Burn</item>
+        <item>Blueshine</item>
+        <item>Eye Catch</item>
+        <item>Unicolor</item>
+        <item>Combo</item>
+        <item>Soft Fx</item>
+        <item>Pinch Fx</item>
+        <item>Soft Pinch</item>
+        <item>Hard Pinch</item>
+        <item>RGB Touch</item>
+        <item>Sigma</item>
+        <item>RGB Fus</item>
+        <item>Boost</item>
+        <item>Grey</item>
+        <item>Sepia</item>
+        <item>Pencil</item>
+    </array>
+    <array name="filter_name">
+        <item>NONE</item>
+        <item>1920</item>
+        <item>Ancient</item>
+        <item>Bleached Blue</item>
+        <item>Bleached</item>
+        <item>Blue Shadows</item>
+        <item>Blues</item>
+        <item>Breeze</item>
+        <item>B&amp;W</item>
+        <item>Celsius</item>
+        <item>Chest</item>
+        <item>Classic</item>
+        <item>Cool</item>
+        <item>Cotton Candy</item>
+        <item>Creamy</item>
+        <item>Colorful</item>
+        <item>Eighties</item>
+        <item>Elder</item>
+        <item>Evening</item>
+        <item>Fall</item>
+        <item>Fixie</item>
+        <item>Food</item>
+        <item>Fridge</item>
+        <item>Front</item>
+        <item>Glam</item>
+        <item>Gobblin</item>
+        <item>High Carp</item>
+        <item>High Contrast</item>
+        <item>Identiy</item>
+        <item>K1</item>
+        <item>K2</item>
+        <item>K6</item>
+        <item>K Dynamic</item>
+        <item>Keen</item>
+        <item>Lenin</item>
+        <item>Litho</item>
+        <item>Lomo 100</item>
+        <item>Lomo</item>
+        <item>Lucid</item>
+        <item>Mellow</item>
+        <item>Neat</item>
+        <item>No Green</item>
+        <item>Orchid</item>
+        <item>Pale</item>
+        <item>Pitched</item>
+        <item>Plate</item>
+        <item>Pola 669</item>
+        <item>Pola SX</item>
+        <item>Pro 400</item>
+        <item>Quozi</item>
+        <item>Sepiahigh</item>
+        <item>Settled</item>
+        <item>Seventies</item>
+        <item>Sin</item>
+        <item>Soft</item>
+        <item>Steel</item>
+        <item>Summer</item>
+        <item>Sunset</item>
+        <item>Tender</item>
+        <item>Texas</item>
+        <item>Twilight</item>
+        <item>Winter</item>
+        <item>X400</item>
+    </array>
+    <array name="lut_image_id">
+        <item>@drawable/icon200</item>
+        <item>@drawable/cre_lut_ad1920</item>
+    </array>
+    <array name="thumb_array_id">
+        <item>@drawable/cre_thumb_no_effect</item>
+        <item>@drawable/cre_thumb_1920</item>
+    </array>
+</resources>
