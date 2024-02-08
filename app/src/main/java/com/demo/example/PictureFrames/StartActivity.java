@@ -57,7 +57,7 @@ public class StartActivity extends Activity {
 
                     case R.id.nav_privacypolicy:
                         StartActivity.this.drawer.closeDrawer(GravityCompat.START);
-                        StartActivity.this.startActivity(new Intent("android.intent.action.VIEW", Uri.parse("http://www.goolge.com/")));
+                        StartActivity.this.startActivity(new Intent("android.intent.action.VIEW", Uri.parse("https://mywild.work/privacy")));
                         return true;
                     case R.id.nav_rateus:
                         StartActivity.this.drawer.closeDrawer(GravityCompat.START);
